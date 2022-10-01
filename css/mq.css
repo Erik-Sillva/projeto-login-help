@@ -1,0 +1,10 @@
+@media screen and (max-width: 700px) {
+
+    main form {
+        max-height: 70vh;
+    }
+
+    form {
+        width: 90%;
+    }
+}
