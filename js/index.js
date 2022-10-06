@@ -19,7 +19,9 @@ function showPassword() {
 function verificar() {
     if (email.value === '' || fieldPassword.value === '') {
         alert('[ERRO] Prencha os campos antes de continuar!');
-    } else {
+    } else if (email.value === '' || fieldPassword.value.lenght < 6) {
+        alert('Verifique se os dados são válidos!');
+    } else if (email.value != '' && fieldPassword.value.lenght >= 6) {
         alert('Você está logado!');
     }
 }
