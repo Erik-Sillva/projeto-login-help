@@ -17,6 +17,7 @@ body,html {
     width: 100vw;
     height: 100vh;
     transition: all .3s ease-in-out;
+    overflow-y: hidden;
 }
 
 header {
